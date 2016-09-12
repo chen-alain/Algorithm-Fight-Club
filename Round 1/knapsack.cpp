@@ -2,7 +2,11 @@
 Algorithm fight club 
 Round 1
 9/8/2016
+https://www.hackerrank.com/contests/2016-algorithm-fight-club-round-1/challenges/unbounded-knapsack
+
+Alain Chen
 */
+
 
 #include <cmath>
 #include <cstdio>
@@ -34,7 +38,7 @@ int main() {
             //If a number appears on the list of elements,
             //then the largestPossibleSum of that number 
             //must be that number since it can use itself.
-            largestPossibleSum.at(value) = value;
+            largestPossibleSum[value] = value;
         }
         
         //Start of algorithm.
@@ -66,14 +70,14 @@ int main() {
             //Find the pair whose largestPossibleSum is the greatest.
             for(int j=0;j<=i/2;j++)
             {                
-                int sum = largestPossibleSum.at(j)+largestPossibleSum.at(i-j);
+                int sum = largestPossibleSum[j]+largestPossibleSum[i-j];
                 if(sum>currMax)
                     currMax=sum;
             }
             //Finalize the largestPossible sum.
-            largestPossibleSum.at(i) = currMax;
+            largestPossibleSum[i] = currMax;
         }
-        cout << largestPossibleSum.at(expectedSum) << endl;
+        cout << largestPossibleSum[expectedSum] << endl;
     }
     
     

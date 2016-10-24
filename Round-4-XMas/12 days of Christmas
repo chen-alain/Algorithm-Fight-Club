@@ -1,0 +1,46 @@
+THE 36 DAYS OF CHRISTMAS
+
+Today, we will we writing code that prints out the lyrics of 
+The Twelve days of Christmas. 
+
+Did you know Christmas is only 11 days away?
+Oct 31 == Dec 25
+We will be writing 3 different versions, each using a different technique.
+
+You must use C, C++, C#, or Java.
+
+If you have never heard of the song, 
+https://en.wikipedia.org/wiki/The_Twelve_Days_of_Christmas_(song)
+
+The lyrics goes like this:
+
+On the first day of Christmas my true love sent to me:
+A Partridge in a Pear Tree
+
+On the second day of Christmas my true love sent to me:
+Two Turtle Doves,
+And a Partridge in a Pear Tree
+
+On the third day of Christmas
+my true love sent to me:
+Three French Hens,
+Two Turtle Doves,
+And a Partridge in a Pear Tree
+
+.....
+.....
+.....
+
+On the twelfth day of Christmas my true love sent to me:
+Twelve Drummers Drumming,
+Eleven Pipers Piping,
+Ten Lords a Leaping,
+Nine Ladies Dancing,
+Eight Maids-a-Milking,
+Seven Swans-a-Swimming,
+Six Geese-a-Laying,
+Five Golden Rings,
+Four Calling Birds,
+Three French Hens,
+Two Turtle Doves,
+And a Partridge in a Pear Tree
